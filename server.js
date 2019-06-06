@@ -49,7 +49,7 @@ function(error){
     }
 });
 
-//Listen on the port
+//Listening on the port
 app.listen(PORT, function() {
     console.log("Listening on port: " + PORT);
 });
